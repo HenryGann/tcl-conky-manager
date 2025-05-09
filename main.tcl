@@ -4,6 +4,7 @@ package require -exact Tcl 9.0.0
 # Load the Tk package (required when using tclsh for GUI)
 package require Tk
 
+wm title . "Conky Config Launcher"
 
 set home $::env(HOME)
 set files [glob $home/.config/conky/*/*.conf]
